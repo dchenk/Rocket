@@ -62,7 +62,7 @@ notify = { version = "4.0.6", optional = true }
 uuid = { version = ">=0.7.0, <0.9.0", optional = true }
 
 # Database dependencies
-diesel = { version = "1.0", default-features = false, optional = true }
+diesel = { git = "https://github.com/diesel-rs/diesel", rev = "8f149f9cdc085974283dc6e997390ed51bf7ec19", default-features = false, optional = true }
 postgres = { version = "0.17", optional = true }
 r2d2 = { version = "0.8", optional = true }
 r2d2_postgres = { version = "0.16", optional = true }
